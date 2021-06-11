@@ -368,7 +368,7 @@ Harry_Potter = sprites.create(img`
 controller.moveSprite(Harry_Potter, 100, 0)
 tiles.setTilemap(tilemap`level1`)
 scene.cameraFollowSprite(Harry_Potter)
-Harry_Potter.ay = 300
+Harry_Potter.ay = 200
 tiles.placeOnRandomTile(Lord_Voldemort, assets.tile`tile7`)
 tiles.placeOnRandomTile(Snitch_Dorada, assets.tile`tile7`)
 info.setLife(3)
